@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+streamlit = "^1.29.0"
+plotly = "^5.18.0"
+geopandas = "^0.14.1"
+scipy = "^1.11.4"
 
 
 [build-system]
