@@ -7,8 +7,8 @@ import plotly.figure_factory as ff
 import pandas as pd
 import plotly.graph_objects as go
 import matplotlib
-
-
+import folium 
+from streamlit_folium import folium_static
 
 # List of empires
 empires = [
@@ -37,38 +37,25 @@ empires = [
 # Read GeoJSON file
 geojson_path = 'ancient_empires.geojson'
 
-gdf = gpd.read_file(geojson_path) 
+gdf = gpd.read_file(geojson_path) #create dataframe 
 
 
 # Create a Streamlit app with a dropdown bar
 st.title("Select An Empire")
 selected_empire = st.selectbox("Select an Empire", gdf['Empire'].tolist())
 
-
-
-
-
-# Display an empty map
-st.title("World Map")
-df = pd.DataFrame({'lat': [0.00], 'lon': [0.00]}) 
-fig = px.scatter_geo()
-
-
-
-
 # Display the selected empire
 st.write(f"You selected: {selected_empire}")
 
-# Filter GeoDataFrame based on the selected empire
-selected_gdf = gdf[gdf['Empire'] == selected_empire]
-
-
-# Create an empty map
-fig = px.choropleth(selected_gdf, geojson=selected_gdf.geometry, locations=selected_gdf.index, projection="natural earth")
-fig.add_trace(px.choropleth(geojson=selected_gdf.geometry, locations=[selected_gdf.index], projection="natural earth").data[0])
-st.plotly_chart(fig)
 
 
 
+#Display an empty map
+st.title("World Map")
+m=folium.Map(location= [0,0], zoom_start=5)
+folium_static(m)
 
-#Work here
+
+
+
+
