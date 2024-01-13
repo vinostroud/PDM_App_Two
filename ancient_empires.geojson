@@ -1,354 +1,353 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Upper Egypt",
-          "Starting_Land_Area": 0.1,
-          "Ending_Land_Area": 0.1,
-          "Starting_Date": "3000 BC",
-          "End_Date": "3000 BC"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [31.0, 27.0]
-        }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Upper Egypt",
+        "Starting_Land_Area": 0.1,
+        "Ending_Land_Area": 0.1,
+        "Starting_Date": -3000,
+        "End_Date": -3000
       },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Old Kingdom of Egypt",
-          "Starting_Land_Area": 0.25,
-          "Ending_Land_Area": 0.4,
-          "Starting_Date": "2800 BC",
-          "End_Date": "2400 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [31.0, 27.0],
-            [33.0, 27.0],
-            [33.0, 29.0],
-            [31.0, 29.0],
-            [31.0, 27.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Akkadian Empire",
-          "Starting_Land_Area": 0.2,
-          "Ending_Land_Area": 0.6,
-          "Starting_Date": "2300 BC",
-          "End_Date": "2200 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [44.0, 32.0],
-            [46.0, 32.0],
-            [46.0, 34.0],
-            [44.0, 34.0],
-            [44.0, 32.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Indus Valley Civilisation",
-          "Starting_Land_Area": 0.15,
-          "Ending_Land_Area": 0.15,
-          "Starting_Date": "2100 BC",
-          "End_Date": "2100 BC"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [68.0, 24.0]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Middle Kingdom of Egypt",
-          "Starting_Land_Area": 0.2,
-          "Ending_Land_Area": 0.5,
-          "Starting_Date": "2000 BC",
-          "End_Date": "1800 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [31.0, 25.0],
-            [34.0, 25.0],
-            [34.0, 30.0],
-            [31.0, 30.0],
-            [31.0, 25.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Xia dynasty",
-          "Starting_Land_Area": 0.4,
-          "Ending_Land_Area": 0.4,
-          "Starting_Date": "1700 BC",
-          "End_Date": "1700 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [105.0, 35.0],
-            [110.0, 35.0],
-            [110.0, 40.0],
-            [105.0, 40.0],
-            [105.0, 35.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Hyksos",
-          "Starting_Land_Area": 0.65,
-          "Ending_Land_Area": 0.65,
-          "Starting_Date": "1600 BC",
-          "End_Date": "1600 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [31.0, 31.0],
-            [34.0, 31.0],
-            [34.0, 34.0],
-            [31.0, 34.0],
-            [31.0, 31.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "New Kingdom of Egypt",
-          "Starting_Land_Area": 0.65,
-          "Ending_Land_Area": 1.0,
-          "Starting_Date": "1500 BC",
-          "End_Date": "1300 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [31.0, 28.0],
-            [35.0, 28.0],
-            [35.0, 33.0],
-            [31.0, 33.0],
-            [31.0, 28.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Shang dynasty",
-          "Starting_Land_Area": 0.9,
-          "Ending_Land_Area": 1.1,
-          "Starting_Date": "1250 BC",
-          "End_Date": "1150 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [114.0, 30.0],
-            [120.0, 30.0],
-            [120.0, 36.0],
-            [114.0, 36.0],
-            [114.0, 30.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "New Kingdom of Egypt",
-          "Starting_Land_Area": 0.5,
-          "Ending_Land_Area": 0.6,
-          "Starting_Date": "1100 BC",
-          "End_Date": "1050 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [31.0, 27.0],
-            [34.0, 27.0],
-            [34.0, 32.0],
-            [31.0, 32.0],
-            [31.0, 27.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Zhou dynasty",
-          "Starting_Land_Area": 0.35,
-          "Ending_Land_Area": 0.45,
-          "Starting_Date": "1000 BC",
-          "End_Date": "900 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [110.0, 30.0],
-            [115.0, 30.0],
-            [115.0, 35.0],
-            [110.0, 35.0],
-            [110.0, 30.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Neo-Assyrian Empire",
-          "Starting_Land_Area": 0.4,
-          "Ending_Land_Area": 1.4,
-          "Starting_Date": "850 BC",
-          "End_Date": "650 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [39.0, 32.0],
-            [42.0, 32.0],
-            [42.0, 35.0],
-            [39.0, 35.0],
-            [39.0, 32.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Median Empire",
-          "Starting_Land_Area": 3.0,
-          "Ending_Land_Area": 3.0,
-          "Starting_Date": "600 BC",
-          "End_Date": "600 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [47.0, 32.0],
-            [50.0, 32.0],
-            [50.0, 35.0],
-            [47.0, 35.0],
-            [47.0, 32.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Achaemenid Empire",
-          "Starting_Land_Area": 2.5,
-          "Ending_Land_Area": 5.5,
-          "Starting_Date": "550 BC",
-          "End_Date": "350 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [45.0, 27.0],
-            [52.0, 27.0],
-            [52.0, 33.0],
-            [45.0, 33.0],
-            [45.0, 27.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Macedonian Empire",
-          "Starting_Land_Area": 5.2,
-          "Ending_Land_Area": 5.2,
-          "Starting_Date": "323 BC",
-          "End_Date": "323 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [21.0, 35.0],
-            [26.0, 35.0],
-            [26.0, 40.0],
-            [21.0, 40.0],
-            [21.0, 35.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Seleucid Empire",
-          "Starting_Land_Area": 4.0,
-          "Ending_Land_Area": 4.0,
-          "Starting_Date": "300 BC",
-          "End_Date": "300 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [35.0, 30.0],
-            [40.0, 30.0],
-            [40.0, 34.0],
-            [35.0, 34.0],
-            [35.0, 30.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Maurya Empire",
-          "Starting_Land_Area": 3.5,
-          "Ending_Land_Area": 3.5,
-          "Starting_Date": "250 BC",
-          "End_Date": "250 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [75.0, 20.0],
-            [80.0, 20.0],
-            [80.0, 25.0],
-            [75.0, 25.0],
-            [75.0, 20.0]
-          ]
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "Empire": "Han dynasty",
-          "Starting_Land_Area": 2.5,
-          "Ending_Land_Area": 2.5,
-          "Starting_Date": "200 BC",
-          "End_Date": "200 BC"
-        },
-        "geometry": {
-          "type": "Polygon",
-          "coordinates": [
-            [105.0, 30.0],
-            [110.0, 30.0],
-            [110.0, 35.0],
-            [105.0, 35.0],
-            [105.0, 30.0]
-          ]
-        }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.0, 27.0]
       }
-    ]
-  }
-  
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Old Kingdom of Egypt",
+        "Starting_Land_Area": 0.25,
+        "Ending_Land_Area": 0.4,
+        "Starting_Date": -2800,
+        "End_Date": -2400
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [31.0, 27.0],
+          [33.0, 27.0],
+          [33.0, 29.0],
+          [31.0, 29.0],
+          [31.0, 27.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Akkadian Empire",
+        "Starting_Land_Area": 0.2,
+        "Ending_Land_Area": 0.6,
+        "Starting_Date": -2300,
+        "End_Date": -2200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [44.0, 32.0],
+          [46.0, 32.0],
+          [46.0, 34.0],
+          [44.0, 34.0],
+          [44.0, 32.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Indus Valley Civilisation",
+        "Starting_Land_Area": 0.15,
+        "Ending_Land_Area": 0.15,
+        "Starting_Date": -2100,
+        "End_Date": -2100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.0, 24.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Middle Kingdom of Egypt",
+        "Starting_Land_Area": 0.2,
+        "Ending_Land_Area": 0.5,
+        "Starting_Date": -2000,
+        "End_Date": -1800
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [31.0, 25.0],
+          [34.0, 25.0],
+          [34.0, 30.0],
+          [31.0, 30.0],
+          [31.0, 25.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Xia dynasty",
+        "Starting_Land_Area": 0.4,
+        "Ending_Land_Area": 0.4,
+        "Starting_Date": -1700,
+        "End_Date": -1700
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [105.0, 35.0],
+          [110.0, 35.0],
+          [110.0, 40.0],
+          [105.0, 40.0],
+          [105.0, 35.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Hyksos",
+        "Starting_Land_Area": 0.65,
+        "Ending_Land_Area": 0.65,
+        "Starting_Date": -1600,
+        "End_Date": -1600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [31.0, 31.0],
+          [34.0, 31.0],
+          [34.0, 34.0],
+          [31.0, 34.0],
+          [31.0, 31.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "New Kingdom of Egypt",
+        "Starting_Land_Area": 0.65,
+        "Ending_Land_Area": 1.0,
+        "Starting_Date": -1500,
+        "End_Date": -1300
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [31.0, 28.0],
+          [35.0, 28.0],
+          [35.0, 33.0],
+          [31.0, 33.0],
+          [31.0, 28.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Shang dynasty",
+        "Starting_Land_Area": 0.9,
+        "Ending_Land_Area": 1.1,
+        "Starting_Date": -1250,
+        "End_Date": -1150
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [114.0, 30.0],
+          [120.0, 30.0],
+          [120.0, 36.0],
+          [114.0, 36.0],
+          [114.0, 30.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "New Kingdom of Egypt",
+        "Starting_Land_Area": 0.5,
+        "Ending_Land_Area": 0.6,
+        "Starting_Date": -1100,
+        "End_Date": -1050
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [31.0, 27.0],
+          [34.0, 27.0],
+          [34.0, 32.0],
+          [31.0, 32.0],
+          [31.0, 27.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Zhou dynasty",
+        "Starting_Land_Area": 0.35,
+        "Ending_Land_Area": 0.45,
+        "Starting_Date": -1000,
+        "End_Date": -900
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [110.0, 30.0],
+          [115.0, 30.0],
+          [115.0, 35.0],
+          [110.0, 35.0],
+          [110.0, 30.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Neo-Assyrian Empire",
+        "Starting_Land_Area": 0.4,
+        "Ending_Land_Area": 1.4,
+        "Starting_Date": -850,
+        "End_Date": -650
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [39.0, 32.0],
+          [42.0, 32.0],
+          [42.0, 35.0],
+          [39.0, 35.0],
+          [39.0, 32.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Median Empire",
+        "Starting_Land_Area": 3.0,
+        "Ending_Land_Area": 3.0,
+        "Starting_Date": -600,
+        "End_Date": -600
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [47.0, 32.0],
+          [50.0, 32.0],
+          [50.0, 35.0],
+          [47.0, 35.0],
+          [47.0, 32.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Achaemenid Empire",
+        "Starting_Land_Area": 2.5,
+        "Ending_Land_Area": 5.5,
+        "Starting_Date": -550,
+        "End_Date": -350
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [45.0, 27.0],
+          [52.0, 27.0],
+          [52.0, 33.0],
+          [45.0, 33.0],
+          [45.0, 27.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Macedonian Empire",
+        "Starting_Land_Area": 5.2,
+        "Ending_Land_Area": 5.2,
+        "Starting_Date": -323,
+        "End_Date": -323
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [21.0, 35.0],
+          [26.0, 35.0],
+          [26.0, 40.0],
+          [21.0, 40.0],
+          [21.0, 35.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Seleucid Empire",
+        "Starting_Land_Area": 4.0,
+        "Ending_Land_Area": 4.0,
+        "Starting_Date": -300,
+        "End_Date": -300
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [35.0, 30.0],
+          [40.0, 30.0],
+          [40.0, 34.0],
+          [35.0, 34.0],
+          [35.0, 30.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Maurya Empire",
+        "Starting_Land_Area": 3.5,
+        "Ending_Land_Area": 3.5,
+        "Starting_Date": -250,
+        "End_Date": -250
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [75.0, 20.0],
+          [80.0, 20.0],
+          [80.0, 25.0],
+          [75.0, 25.0],
+          [75.0, 20.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Empire": "Han dynasty",
+        "Starting_Land_Area": 2.5,
+        "Ending_Land_Area": 2.5,
+        "Starting_Date": -200,
+        "End_Date": -200
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [105.0, 30.0],
+          [110.0, 30.0],
+          [110.0, 35.0],
+          [105.0, 35.0],
+          [105.0, 30.0]
+        ]
+      }
+    }
+  ]
+}
