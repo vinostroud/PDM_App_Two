@@ -45,9 +45,8 @@ st.write(f"You selected: {selected_empire}")
 
 #Display an empty map
 st.title("World Map")
-m=folium.Map(location= [0,0], zoom_start=5)
-folium_static(m)
-
+#m=folium.Map(location= [0,0], zoom_start=5)
+#folium_static(m)
 
 
 gdf.plot(figsize=(6,6))
