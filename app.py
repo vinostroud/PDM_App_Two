@@ -46,30 +46,13 @@ selected_empire = st.selectbox("Select an Empire", gdf['Empire'].tolist())
 st.title("World Map")
 m = folium.Map(location=[0, 0], zoom_start=5)
 
-# Function to display the selected empire
-def display_selected_empire_map(selected_empire, gdf, map_object):
-    # Iterate over map layers and remove them
-    for layer_id in list(map_object._children):
-        map_object._children.pop(layer_id)
+#geojson overlay
+folium.GeoJson(geojson_path).add_to(m)
 
-    # Filter GeoDataFrame based on the selected empire
-    selected_gdf = gdf[gdf['Empire'] == selected_empire]
+folium_static(m)
 
-    # Convert the GeoDataFrame to GeoJSON format
-    geojson_data = selected_gdf.to_crs(epsg='4326').to_json()
 
-    # Add the GeoJSON data to the map
-    folium.GeoJson(
-        geojson_data,
-        name=selected_empire,
-    ).add_to(map_object)
 
-    # Display the map using st_folium
-    folium_static(map_object)
-    return st.write(f"You selected: {selected_empire}")
-
-# Call the function
-display_selected_empire_map(selected_empire, gdf, m)
 
 
 
