@@ -46,8 +46,9 @@ selected_empire = st.selectbox("Select an Empire", gdf['Empire'].tolist())
 st.title("World Map")
 m = folium.Map(location=[0, 0], zoom_start=5)
 
-#geojson overlay
-folium.GeoJson(geojson_path).add_to(m)
+tooltip = 'This is a placeholder tooltip'
+
+
 
 folium_static(m)
 
