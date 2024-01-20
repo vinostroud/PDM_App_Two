@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 import folium 
 from streamlit_folium import folium_static
 
-
-
 # List of empires
 empires = [
     "Upper Egypt",
@@ -47,15 +45,6 @@ st.title("World Map")
 m = folium.Map(location=[0, 0], zoom_start=5)
 
 tooltip = 'This is a placeholder tooltip'
-
-folium_static(m)
-
-
-
-
-
-
-
 
 
 
