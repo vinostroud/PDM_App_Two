@@ -48,8 +48,6 @@ m = folium.Map(location=[0, 0], zoom_start=5)
 
 tooltip = 'This is a placeholder tooltip'
 
-
-
 folium_static(m)
 
 
