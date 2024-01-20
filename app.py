@@ -1,9 +1,10 @@
+
 import streamlit as st
-import plotly.express as px
 import geopandas as gpd
-import numpy as np
-import plotly.figure_factory as ff
 import pandas as pd
+import matplotlib.pyplot as plt
+import folium 
+from streamlit_folium import folium_static
 
 # List of empires
 empires = [
@@ -29,16 +30,21 @@ empires = [
     "Han dynasty"
 ]
 
-# Create a Streamlit app with a dropdown bar
-st.title("Empire Selector")
-selected_empire = st.selectbox("Select an Empire", empires)
+# Read GeoJSON file
+geojson_path = 'ancient_empires.geojson'
 
-# Display the selected empire
-st.write(f"You selected: {selected_empire}")
+# create GeoDataFrame
+gdf = gpd.read_file(geojson_path)
+
+# Create a Streamlit app with a dropdown bar
+st.title("Select An Empire")
+selected_empire = st.selectbox("Select an Empire", gdf['Empire'].tolist())
 
 # Display an empty map
 st.title("World Map")
-df = pd.DataFrame({'lat': [0.00], 'lon': [0.00]}) 
-fig = px.scatter_geo()
+m = folium.Map(location=[0, 0], zoom_start=5)
 
-st.plotly_chart(fig)
+tooltip = 'This is a placeholder tooltip'
+
+
+
