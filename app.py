@@ -7,7 +7,6 @@ import folium
 from streamlit_folium import folium_static
 
 
-
 # List of empires
 empires = [
     "Upper Egypt",
@@ -62,5 +61,4 @@ plot_geojson()
 
 folium_static(m)
 
-
-
+tooltip = 'This is a placeholder tooltip'
