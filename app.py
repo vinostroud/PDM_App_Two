@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import folium 
 from streamlit_folium import folium_static
 
+
 # List of empires
 empires = [
     "Upper Egypt",
@@ -44,7 +45,20 @@ selected_empire = st.selectbox("Select an Empire", gdf['Empire'].tolist())
 st.title("World Map")
 m = folium.Map(location=[0, 0], zoom_start=5)
 
+#add function to pull geojson data based on select box.
+
+def plot_geojson():
+    selected_gdf = gdf[gdf['Empire'] == selected_empire]
+    center_lat, center_lon = selected_gdf.geometry.centroid.y.mean(), selected_gdf.geometry.centroid.x.mean()
+    m.location = [center_lat, center_lon]
+    folium.GeoJson(selected_gdf, name=selected_empire, tooltip=selected_empire).add_to(m)
+
+plot_geojson()
+    
+#tooltip = 'This is a placeholder tooltip'
+
+
+
+folium_static(m)
+
 tooltip = 'This is a placeholder tooltip'
-
-
-
