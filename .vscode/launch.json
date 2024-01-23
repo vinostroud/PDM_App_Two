@@ -22,7 +22,22 @@
                 "${workspaceFolder}/app.py",
                 "--server.port",
                 "8080"
-            ],
+            ]
         },
+        {
+            "name": "Docker: Python - General",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "python": {
+                "pathMappings": [
+                    {
+                        "localRoot": "${workspaceFolder}",
+                        "remoteRoot": "/app"
+                    }
+                ],
+                "projectType": "general"
+            }
+        }
     ]
 }
