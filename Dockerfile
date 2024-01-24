@@ -15,7 +15,7 @@ RUN pip install --no-cache-dir poetry && \
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# Make port 80 available to the world outside this container
+# Make port 8051 available to the world outside this container
 EXPOSE 8501
 
 # Define environment variable

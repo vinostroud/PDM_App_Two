@@ -1,0 +1,18 @@
+[project]
+name = "PDM_App_Two"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["vinostroud <krstrouse@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+streamlit = ">=1.30.0,<1.31"
+
+[pypi-dependencies]
+streamlit-folium = "==0.18"
+geopandas = "==0.14.1"
+fiona = "==1.9.5"
