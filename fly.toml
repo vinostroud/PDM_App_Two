@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for pdm-app-two-ancient-snow-6330-proud-glitter-7042-wandering-surf-956 on 2024-01-24T08:17:24-05:00
+# fly.toml app configuration file generated for pdm-app-two-lingering-thunder-1 on 2024-01-24T09:09:37-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "pdm-app-two-ancient-snow-6330-proud-glitter-7042-wandering-surf-956"
+app = "pdm-app-two-lingering-thunder-1"
 primary_region = "ewr"
 
 [build]
