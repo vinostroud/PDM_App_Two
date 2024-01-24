@@ -11,6 +11,7 @@ platforms = ["osx-arm64"]
 [dependencies]
 python = "3.11.*"
 streamlit = ">=1.30.0,<1.31"
+pip = ">=23.3.2,<23.4"
 
 [pypi-dependencies]
 streamlit-folium = "==0.18"

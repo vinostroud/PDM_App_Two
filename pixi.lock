@@ -2731,6 +2731,30 @@ package:
   size: 41593553
   timestamp: 1704252636313
 - platform: osx-arm64
+  name: pip
+  version: 23.3.2
+  category: main
+  manager: conda
+  dependencies:
+  - python >=3.7
+  - setuptools
+  - wheel
+  url: https://conda.anaconda.org/conda-forge/noarch/pip-23.3.2-pyhd8ed1ab_0.conda
+  hash:
+    md5: 8591c748f98dcc02253003533bc2e4b1
+    sha256: 29096d1d53c61aeef518729add2f405df86b3629d1d738a35b15095e6a02eeed
+  build: pyhd8ed1ab_0
+  arch: aarch64
+  subdir: osx-arm64
+  build_number: 0
+  license: MIT
+  license_family: MIT
+  noarch: python
+  size: 1395000
+  timestamp: 1702822023465
+  purls:
+  - pkg:pypi/pip
+- platform: osx-arm64
   name: pkgutil-resolve-name
   version: 1.3.10
   category: main
@@ -3815,6 +3839,28 @@ package:
   timestamp: 1704731373922
   purls:
   - pkg:pypi/wcwidth
+- platform: osx-arm64
+  name: wheel
+  version: 0.42.0
+  category: main
+  manager: conda
+  dependencies:
+  - python >=3.7
+  url: https://conda.anaconda.org/conda-forge/noarch/wheel-0.42.0-pyhd8ed1ab_0.conda
+  hash:
+    md5: 1cdea58981c5cbc17b51973bcaddcea7
+    sha256: 80be0ccc815ce22f80c141013302839b0ed938a2edb50b846cf48d8a8c1cfa01
+  build: pyhd8ed1ab_0
+  arch: aarch64
+  subdir: osx-arm64
+  build_number: 0
+  license: MIT
+  license_family: MIT
+  noarch: python
+  size: 57553
+  timestamp: 1701013309664
+  purls:
+  - pkg:pypi/wheel
 - platform: osx-arm64
   name: widgetsnbextension
   version: 4.0.9
