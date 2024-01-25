@@ -30,8 +30,6 @@ empires = [
     "Han dynasty"
 ]
 
-st.title("Test")
-
 cfd = pathlib.Path(__file__).parent
 # Read GeoJSON file
 geojson_path = cfd / 'ancient_empires.geojson'

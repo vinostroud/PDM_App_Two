@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for pdm-app-two-lingering-thunder-1 on 2024-01-24T09:09:37-05:00
+# fly.toml app configuration file generated for pdm-app-two-lingering-thunder-1-wispy-frog-3565 on 2024-01-24T09:51:55-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "pdm-app-two-lingering-thunder-1"
+app = "pdm-app-two-lingering-thunder-1-wispy-frog-3565"
 primary_region = "ewr"
 
 [build]
